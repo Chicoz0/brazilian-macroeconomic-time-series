@@ -60,7 +60,7 @@ library(tidyverse)
 library(forecast)
 
 # --- Leitura do painel cru (gerado pelo script de coleta) ---
-painel <- read_csv("../data/painel_final.csv")
+painel <- read_csv("data/painel_final.csv")
 glimpse(painel)
 
 
